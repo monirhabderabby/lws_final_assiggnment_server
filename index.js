@@ -33,7 +33,7 @@ const rules = auth.rewriter({
     messages: 660,
 });
 
-// app.use(rules);
+app.use(rules);
 app.use(auth);
 app.use(router);
 
